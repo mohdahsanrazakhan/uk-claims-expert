@@ -1,0 +1,107 @@
+.testimonial-parent {
+  background-color: rgba(217, 217, 217, 0.5);
+  border: 3px solid #fff;
+  border-radius: 1rem;
+  color: aliceblue;
+  padding: 30px;
+  margin: 5rem 0;
+}
+
+.claim-heading {
+  color: #000;
+  font-family: "Roboto Slab", serif;
+  margin: 0 0 35px 0;
+}
+
+claim-paragraph {
+  margin: 0 0 40px 0
+}
+
+.claim-list {
+  display: flex;
+  gap: 10px;
+  color: #000;
+}
+
+.claim-list ul li {
+  margin: 15px 0;
+}
+
+.claims-portion {
+  display: flex;
+  gap: 100px;
+}
+
+.claims-content, .claim-image {
+  flex: 1;
+}
+
+.claim-image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.grid-img {
+  width: 250px;
+  height: 150px;
+}
+
+.claim-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img1 {
+  border-radius: 15px 0 0 0;
+}
+
+.img2 {
+  border-radius: 0 15px 0 0;
+}
+
+.img3 {
+  border-radius: 0 0 0 15px;
+}
+
+.img4 {
+  border-radius: 0 0 15px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .claims-portion {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .claim-image {
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+
+  .claim-list {
+    flex-direction: column;
+  }
+
+  claim-paragraph {
+    margin: 0 0 20px 0
+  }
+
+  .img1 {
+    border-radius: 15px 15px 0 0;
+  }
+
+  .img2 {
+    border-radius: 0 0 0 0;
+  }
+  
+  .img3 {
+    border-radius: 0 0 0 0;
+  }
+
+  .img4 {
+    border-radius: 0 0 15px 15px;
+  }
+}

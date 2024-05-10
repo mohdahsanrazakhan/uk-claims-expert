@@ -1,0 +1,55 @@
+
+.service-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.service-image img {
+  width: 300px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.service-description {
+  max-width: 600px;
+}
+
+.service-description h2 {
+  color: #000;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: "Roboto Slab", serif;
+}
+
+.service-description p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.service-image img {
+  box-shadow: 4px 4px 28px rgba(0, 0, 0, 0.25);
+  width: 260px;
+  height: 170px;
+  margin-right: 31px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .service-info {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .service-image {
+    width: 100%;
+  }
+
+  .service-image img {
+    width: 100% !important;
+  }
+}

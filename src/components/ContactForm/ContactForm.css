@@ -1,0 +1,112 @@
+.contact-heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto Slab", serif;
+  color: #000;
+  margin: 2rem 0;
+}
+
+.contact-form h2 {
+  color: #000;
+}
+
+.contact-form p {
+  margin: 0 0 12px 0;
+  color: whitesmoke; 
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.input-fields label {
+  color: #000;
+  margin: 8px 0 0 0;
+}
+
+.input-fields input, textarea {
+  padding: 10px 8px;
+  border: 2px solid #C2BFBF;
+  border-radius: 20px;
+  padding: 7px 14px;
+  margin: 3px 0 0 0;
+  background-color: #748598;
+  color: whitesmoke;
+}
+
+.input-fields input:focus, textarea:focus {
+  background: rgba(116, 133, 152, 0.5);
+  outline-color: #000;
+}
+
+.submit-btn {
+  background-color: #4E647D;
+  color: whitesmoke;
+  border: none;
+  border-radius: 20px;
+  padding: 7px 48px;
+  /* margin: 10px 0 0; */
+  display: flex;
+  margin: 2rem auto;
+}
+
+.submit-btn:hover {
+  background-color: #748598;
+}
+
+.submit-btn:active {
+  background-color: #4E647D;
+}
+
+.contact-container {
+  display: flex;
+  gap: 3rem;
+}
+
+.fields-left, .fields-right {
+  flex: 1;
+}
+
+.fields-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.fields-right textarea {
+  height: 11rem;
+}
+
+@media only screen and (max-width: 550px) {
+  .contact-container {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #e8e3e3;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #e8e3e3;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #e8e3e3;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #e8e3e3;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

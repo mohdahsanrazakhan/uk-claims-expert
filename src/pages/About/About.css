@@ -1,0 +1,37 @@
+.about_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.About_portion {
+  background-color: rgba(217, 217, 217, 0.5);
+  border: 3px solid #fff;
+  border-radius: 1rem;
+  color: aliceblue;
+  padding: 30px;
+}
+
+.about_paragraph {
+  text-transform: capitalize;
+}
+
+.about_heading {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  
+}
+
+.about_subheading {
+  color: #000;
+  font-family: "Roboto Slab", serif;
+}
+
+.subheading_title {
+  font-size: 1.1rem;
+}
+
+.about_heading, .about_subheading, .about_paragraph, .subheading_title, p {
+  color: #000;
+}

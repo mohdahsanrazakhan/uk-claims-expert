@@ -29,6 +29,14 @@
   margin: auto;
 }
 
+.hero-form img {
+  border-radius: 15px;
+}
+
+.hero-form img {
+  width: 100%;
+}
+
 .hero-form h2 {
   font-family: "Roboto Slab", serif;
 }

@@ -21,7 +21,7 @@ function Hero() {
         transition={{ duration: 1 }}
         viewport={{ once: true }}
         className='hero-form'>
-          <img src={heroImg} alt="hero image" loading='lazy' />
+          <img src={heroImg} alt="hero" loading='lazy' />
       </motion.div>
     </div>
   )

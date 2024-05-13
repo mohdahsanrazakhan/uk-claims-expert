@@ -1,8 +1,10 @@
-import React, { useRef } from 'react'
+import React, { useState, useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import './ContactForm.css'
+import ReCAPTCHA from "react-google-recaptcha";
 
 function ContactForm() {
+  const [captchaVal, setCaptchaVal] = useState(null);
 
   const form = useRef();
 
@@ -10,8 +12,8 @@ function ContactForm() {
     e.preventDefault();
 
     emailjs
-      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
-        publicKey: 'YOUR_PUBLIC_KEY',
+      .sendForm('service_4vn538r', 'template_n1shg1o', form.current, {
+        publicKey: '5QddRjef5AzIKRcy0',
       })
       .then(
         () => {
@@ -47,7 +49,12 @@ function ContactForm() {
             <textarea name="message" placeholder='Type your message here...' />
           </div>
         </div>
-        <input type="submit" value="Send" className='submit-btn' />
+        <ReCAPTCHA
+            className="reCaptcha-style mt-3"
+            sitekey="6LcqndopAAAAAMcT5ZtuC6zllpnTH-hQz0aD0XBM"
+            onChange={(val) => setCaptchaVal(val)}
+          />
+        <button type="submit" value="Send" className='submit-btn' disabled={!captchaVal} >Send</button>
       </form>
     </div>
   );

@@ -63,7 +63,7 @@ function Navbar({ mode, toggleColorMode }) {
               justifyContent: "space-between",
               flexShrink: 0,
               borderRadius: "999px",
-              bgcolor: "rgba(116, 133, 152, 0.5)",
+              bgcolor: "rgba(116, 133, 152, 0.9)",
               border: "1px solid rgba(0, 0, 0, 0.5)",
               boxShadow: "0 0 10px rgba(0, 0, 0, 0.3)"
             })}

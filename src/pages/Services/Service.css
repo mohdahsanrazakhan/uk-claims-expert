@@ -5,6 +5,7 @@
   color: aliceblue;
   padding: 30px;
   margin: 5rem 0 5rem 0;
+  overflow-x: hidden;
 }
 
 .service-heading {

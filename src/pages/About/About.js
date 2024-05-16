@@ -39,10 +39,10 @@ const About = () => {
         className="text_portion">
         <h2 className="about_subheading">How we help?</h2>
         <p className="about_paragraph_sub">
-        We collaborate with 10 to 15 solicitors to provide diverse legal expertise. This partnership enables tailored solutions and expert guidance on housing disrepair and property disputes. Working closely with this network ensures specialized support for landlord-tenant issues. Our approach guarantees professionalism and care in navigating legal challenges, whether complex or straightforward. Clients benefit from efficient and confident resolution of their legal needs, knowing they have access to a range of expert resources.
+        Discover a harmonious blend of legal prowess and personalized care with our collaborative network of 15 top-tier solicitors. At our core, we champion diversity in legal expertise, ensuring every client receives tailored solutions and expert guidance, particularly in the intricate realms of housing disrepair and property disputes.
         </p>
         <p className="about_paragraph_sub">
-        We help you in getting compensation, compensation amounts can be more than £7,000 to £8,000. The minimum amount that a person receives is £1,500.
+        It's our unwavering dedication to securing compensation that speaks volumes. Picture this: your compensation ranging from a generous £7,000 to £8,000, ensuring that justice is not just served but celebrated. Even the minimum compensation of £1,500 is a testament to our unwavering commitment to your rights and well-being.
         </p>
       </motion.div>
       <motion.div 
@@ -54,10 +54,10 @@ const About = () => {
         <div className="text_portion">
           <h2 className="about_subheading">No Win, No Fee Service</h2>
           <p className="about_paragraph_sub">
-            At UK Claims Expert, we've aided countless tenants in reclaiming their quality of life and securing rightful compensation. Enduring the stress of a poorly maintained property shouldn't be endured in silence. Our commitment is to advocate for tenants' rights, especially when significant disrepair jeopardizes your belongings.
+            At UK Claims Expert, we've tirelessly assisted numerous tenants in reclaiming their rightful compensation and restoring their quality of life. We understand that enduring the stress of a poorly maintained property shouldn't be suffered in silence. That's why our dedication lies in advocating for tenants' rights, especially when significant disrepair threatens your well-being.
           </p>
           <p className="about_paragraph_sub">
-          Our seasoned solicitors diligently construct robust disrepair claims against landlords. Your dedicated case handler will navigate the legal intricacies and address any queries you may have. Operating on a strictly no-win, no-fee basis, we won't charge you if your claim fails, provided you adhere to our agreement terms. While based in Manchester, we've helped individuals nationwide secure housing disrepair compensation. Whether you're ready to file a claim or seek guidance, contact us for assistance. We're eager to help.
+            Our seasoned solicitors meticulously construct robust disrepair claims against landlords, leaving no stone unturned in pursuit of justice. With us, you'll have a dedicated case handler guiding you through every legal nuance, addressing any questions or concerns along the way. And here's the best part: we operate on a strict no-win, no-fee basis. That means if your claim doesn't succeed, you won't be charged a penny, as long as you adhere to our agreement terms.
           </p>          
         </div>
       </motion.div>
